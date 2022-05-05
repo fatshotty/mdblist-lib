@@ -56,6 +56,18 @@ Returns `Promise<MDBListItem>`
 
 ### Types
 
+
+###### MDBListMediaType
+```js
+'movie' | 'show';
+````
+
+###### MDBListProvider
+```js
+'imdb' | 'tmdb' | 'tvdb' | 'trakt'
+```
+
+
 ###### MDBListSearchResponse
 ```js
 search: MDBListSearchItem[]

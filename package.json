@@ -1,0 +1,20 @@
+{
+  "name": "mdblist-lib",
+  "version": "1.0.0",
+  "description": "mdblist.com API integration",
+  "exports": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "fatshotty",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.7.0-dev.20220426"
+  },
+  "dependencies": {
+    "got": "^11.0.0"
+  },
+  "engines": {
+    "node": ">=14.16"
+  }
+}

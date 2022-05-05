@@ -21,7 +21,7 @@ async function getIceAge() {
     console.log( JSON.stringify(res, null, 2) );
 
 }
-start();
+getIceAge();
 ```
 
 

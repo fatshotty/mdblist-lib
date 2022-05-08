@@ -83,7 +83,9 @@ year: number;
 score: number;
 type: MDBListMediaType;
 imdbid: string | null;
-traktid: string | null;
+traktid: number | null;
+tmdbid?: number;
+tvdbid?: number;
 ```
 
 ###### MDBListItem
